@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickets</title>
+  </head>
+  <body>
+    <h1>Tickets!!!</h1>
+    <form action="none">
+      <div>
+        <label for="First Name">Enter First Name : </label>
+        <input type="text" placeholder="First Name" id="First Name" required />
+        <label for="Last Name">Enter Last Name : </label>
+        <input type="text" placeholder="Last Name" id="Last Name" required />
+      </div>
+      <div>
+        <p>Select Tier :</p>
+        <div>
+          <input type="radio" name="tier" id="Basic" value="1" required />
+          <label for="Basic">Basic</label>
+        </div>
+        <div>
+          <input type="radio" name="tier" id="Elite" value="2" required />
+          <label for="Elite">Elite</label>
+        </div>
+        <div>
+          <input type="radio" name="tier" id="Diamond" value="3" required />
+          <label for="Diamond">Diamond</label>
+        </div>
+      </div>
+      <div>
+        <label for="Email">Enter Your Email ID : </label>
+        <input type="email" placeholder="Enter Email ID" id="Email" required />
+        <label for="Password">Enter A Password : </label>
+        <input
+          type="password"
+          placeholder="Enter A Valid Password"
+          id="Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="Age">Select Your Age</label>
+        <select name="Age" id="Age>
+          <option value="Select">Select</option>
+          <option value="kids">1-17</option>
+          <option value="Adults">18-50</option>
+          <option value="Seniors">50+</option>
+        </select>
+      </div>
+      <button>Book</button>
+    </form>
+  </body>
+</html>
